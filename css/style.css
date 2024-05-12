@@ -1,0 +1,297 @@
+nav{
+  background-color: #4cb7e9;
+
+}
+
+.navbar-nav a {
+  color: green; /* Set your desired color */
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+.navbar-nav a:hover {
+  color: #ccc; /* Change color on hover */
+/* Optional: Change background color on hover */
+}
+
+.searchform {
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.searchform input {
+  border: 1px solid #0d8523; /* Set border color */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  padding: 5px; /* Adjust padding as needed */
+  color: #0d8523; /* Set text color */
+}
+
+.searchform button {
+  background-color: #0d8523; /* Set background color */
+  border: none;
+  color: #fff; /* Set text color */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  padding: 5px 10px; /* Adjust padding as needed */
+  cursor: pointer;
+  border-bottom: #007bff;
+}
+
+.searchform button:hover {
+  background-color: #fff; /* Change background color on hover */
+  color: #0d8523; /* Change text color on hover */
+}
+
+/*  */
+
+.bg {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.image-carousel-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-xs {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.links {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #28a745;
+  color: #28a745;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/*  */
+
+/* media query */
+
+@media(max-width:650px){
+  .company-name{
+      display: none;
+  }
+}
+
+.card {
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+border-radius: 0;
+transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+background-color: #007bff;
+color: #fff;
+}
+
+.social-icon {
+margin: 5px;
+font-size: 24px;
+}
+
+.social-icon.twitter {
+color: #1da1f2; /* Twitter color */
+}
+
+.social-icon.google {
+color: #db4437; /* Google color */
+}
+
+.social-icon.instagram {
+color: #e4405f; /* Instagram color */
+}
+
+.social-icon.linkedin {
+color: #0077b5; /* LinkedIn color */
+}
+
+.text_black {
+color: black;
+}
+
+
+/* css for aboutus page */
+
+.container3 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #007bff;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h2, h3 {
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.board-members h3 {
+  margin-top: 30px;
+}
+
+.board-members ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.president-image,
+.vice-president-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* contact us page  */
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* events */
+
+body {
+            
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Add your custom CSS styles here */
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* gallery */
+
+h1 {
+  color: #003366;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.gallery-item {
+  flex: 0 0 300px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+}
+
+/* team */
+
+body {
+            
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Add your custom CSS styles here */
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+
+/* about chamber */
+
+.container1 {
+  margin-top: 20px;
+  max-width: 860px;
+  margin: auto;
+}
+
+#aboutuspage,
+    #aboutchamberpage,
+    #leadershippage,
+    #servicespage,
+    #eventspage,
+    #gallerypage,
+    #contactuspage {
+        display: none;
+    }
+
+
+    .active-link {
+      color: #ff0000; /* Change this to the color you want */
+  }
